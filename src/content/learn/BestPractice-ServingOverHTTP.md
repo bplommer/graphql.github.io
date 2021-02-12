@@ -60,7 +60,7 @@ If you're using express-graphql, you already get these behaviors for free.
 
 ## Response
 
-Regardless of the method by which the query and variables were sent, the response should be returned in the body of the request in JSON format. As mentioned in the spec, a query might result in some data and some errors, and those should be returned in a JSON object of the form:
+Regardless of the method by which the query and variables were sent, the response should be returned in the body of the response in JSON format. As mentioned in the spec, a query might result in some data and some errors, and those should be returned in a JSON object of the form:
 
 ```js
 {
